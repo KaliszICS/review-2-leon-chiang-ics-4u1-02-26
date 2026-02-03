@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class PracticeProblem {
 
 	public static void main(String args[]) {
@@ -10,32 +11,47 @@ public class PracticeProblem {
 	}
 
 	public static void q1() {
-		//Write question 1 code here
-		
+		Scanner s = new Scanner(System.in);
+		String x=s.nextLine();
+		System.out.println("In: "+x);
 	}
 
 	public static void q2() {
-		//Write question 2 code here
-		
+		Scanner s = new Scanner(System.in);
+		int x=s.nextInt();
+		System.out.print("In: ");
+		int y=s.nextInt();
+		System.out.print("In: ");
+		System.out.println(x/y);
+		System.out.println(x%y);
 	}
 
 	public static void q3() {
-		//Write question 3 code here
-		
+		Scanner s = new Scanner(System.in);
+		String x=s.nextLine();
+		System.out.println("In: "+x+" was the text you wrote");
 	}
 
 	public static void q4() {
-		//Write question 4 code here
+		Scanner s = new Scanner(System.in);
+		int x=s.nextInt();
+		System.out.print("In: ");
+		System.out.println(x*5);
 		
 	}
 
 	public static void q5() {
-		//Write question 5 code here
+		Scanner s = new Scanner(System.in);
+		Boolean x=s.nextBoolean();
+		System.out.println("In: "+x+" is a boolean");
 		
 	}
 
 	public static void q6() {
-		//Write question 6 code here
+		Scanner s = new Scanner(System.in);
+		Double x=s.nextDouble();
+		System.out.print("In: ");
+		System.out.println(x-3.2);
 		
 	}
 
